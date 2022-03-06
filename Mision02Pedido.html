@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pedido.css">
+    <title>¡Haz tu Pedido!</title>
+</head>
+<body>
+    <nav>
+        <section class="Menu">
+        <div class="navizq">
+            <ul class="listi">
+                <li> <a href="Mision02Inicio.html">Inicio</a></li>
+                <li><a href="Mision02.html">Catalogo</a></li>
+                <li class="Titulo">Aros de Jupiter</li>
+                <li><a href="Mision02Pedido.html">Pedidos</a></li>
+                
+            </ul>
+        </section>
+        </nav>
+        <br>
+    <center>
+        <h1>
+            Comienza tu pedido Astronauta
+        </h1>
+    </center>
+    <br>
+    <fieldset>
+        <legend>Datos Personales</legend>
+        <label>Nombre:</label>
+        <input type="text" placeholder="Ingresa Tu Nombre">
+        <label>Apellido Paterno:</label>
+        <input type="text" placeholder="Ingresa Tu Apellido Paterno">
+        <label>Apellido Materno:</label>
+        <input type="text" placeholder="Ingresa Tu Apellido Materno"> <br>
+        <br>
+        <label>Genero:</label>
+        <input type="radio" name="Gen" id="Femenino" value="F">
+        <label for="Femenino">Femenino</label>
+        <input type="radio" name="Gen" id="Masculino" value="M">
+        <label for="Masculino">Masculino</label>
+        <label for="Edad">Edad:</label>
+        <input type="text" placeholder="Ingresa Tu Edad">
+        <br>
+        <label for="Domicilio">Email:</label>
+        <input type="email" name="email" placeholder="@gmail.com">
+        <br>
+        <label for="Tel">Telefono:</label>
+        <input type="number" name="Tel" id="" placeholder="+52 XXXX-XXXX">
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Datos del Pedido</legend>
+        <br>
+        A continuacion podra ingresar el sabor de su pastel, podemos combinar hasta 3 Sabores
+        <br>
+        <br>
+        <label for="Sabores">Porfavor, ingrese los Sabores de su Pastel:</label>
+        <br>
+        <br>
+        <label for="Sabores">Sabor 1:</label>
+        <select name="Sabores" id="">
+            <option value="Moka">Moka</option>
+            <option value="Fresa">Fresa</option>
+            <option value="Vaiinilla">Vainilla</option>
+            <option value="Tres Leches">Tres Leches</option>
+            <option value="Nutella">Nutella</option>
+            <option value="Imposible">Imposible</option>
+            <option value="Marmol">Marmol</option>
+            <option value="Durazno">Durazno</option>
+        </select>
+        <label for="Sabores">Sabor 2:</label>
+        <select name="Sabores1" id="">
+            <option value="Ninguno">Ninguno</option>
+            <option value="Moka">Moka</option>
+            <option value="Fresa">Fresa</option>
+            <option value="Vaiinilla">Vainilla</option>
+            <option value="Tres Leches">Tres Leches</option>
+            <option value="Nutella">Nutella</option>
+            <option value="Imposible">Imposible</option>
+            <option value="Marmol">Marmol</option>
+            <option value="Durazno">Durazno</option>
+        </select>
+        <label for="Sabores">Sabor 3:</label>
+        <select name="Sabores2" id="">
+            <option value="Ninguno">Ninguno</option>
+            <option value="Moka">Moka</option>
+            <option value="Fresa">Fresa</option>
+            <option value="Vaiinilla">Vainilla</option>
+            <option value="Tres Leches">Tres Leches</option>
+            <option value="Nutella">Nutella</option>
+            <option value="Imposible">Imposible</option>
+            <option value="Marmol">Marmol</option>
+            <option value="Durazno">Durazno</option>
+        </select>
+        <br>
+        <br>
+        <label for="Adornos">Seleccione los Adornos que desea incluir:</label>
+        <br>
+        <label for="">Unicamente podra poner hasta 2 adornos de Chocolate (M&M's, Kit Kat, Ralladura de Chocolate, Lunetas)</label>
+        <br>
+        <br>
+        <input type="radio" name="Chocolate" id="Chocolate">
+        <label for="Chocolate">M&M's</label>
+        <input type="radio" name="Chocolate" id="Chocolate">
+        <label for="Chocolate">Lunetas</label>
+        <input type="radio" name="Chocolate1" id="Chocolate1">
+        <label for="Chocolate1">Kit Kat</label>
+        <input type="radio" name="Chocolate1" id="Chocolate1">
+        <label for="Chocolate1">Ralladura de Chocolate</label>
+        <br>
+        <br>
+        <label for="Fecha">Seleccione la fecha de entrega:</label>
+        <input type="date" name="Entrega" id="">
+        <br>
+        <label for="Comentarios">Comentarios:</label>
+        <br>
+        <textarea name="Comentario" id="" cols="50" rows="10"></textarea>
+    </fieldset>
+    <br>
+    <center>
+    <input type="submit" value="Enviar Formulario">
+    </center>
+</body>
+</html>

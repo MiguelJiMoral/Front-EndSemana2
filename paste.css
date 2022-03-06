@@ -1,0 +1,108 @@
+*{
+    margin: 0%;
+}
+.Menu{
+    display: block;
+    background-color: #262423;
+    box-shadow:  5px 5px black;
+    height: 60px;
+}
+.Categorias{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+ul{
+    padding-bottom: 20px;
+}
+li{
+    
+    color: white;
+    font-size: 60px;
+    font-family: cursive;
+    font-size: larger;
+    display: inline;
+    padding-right: 12%;
+}
+.Titulo{
+    padding-left: 10%;
+    color: white;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+}
+.navdere{
+    float: right;
+    top: 0%;
+}
+.navcen{
+    width: 50%;
+    height: 15px;
+}
+th.Sabor{
+    height: 10px;
+    font-size: larger;
+    background-color: #45322e;;
+    border:1px solid #45322e;
+    border-width: thick;
+    color: white;
+}
+table.Pastel{
+    border: 1px solid #45322e;
+    border-width: thick;
+}
+.Pasteles{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+.Pasteles1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+h1{
+    text-align: center;
+}
+.Imagen{
+    width: 300px;
+    height: 300px;
+}
+th.Dulces{
+    text-align: justify;
+    font-size: 25px;
+}
+table.Adornos{
+    text-align: center;
+    width: 100%;
+    border: 1px solid black;
+    margin: 0%;
+    height: 300px;
+    
+}
+th.Precioa {
+    background-color: #bd3f34;
+    color: white;
+    font-size: 30px;
+    border-left: 1px solid black;
+}
+th.Adornos{
+    background-color: #bd3f34;
+    color: white;
+    font-size: 30px;
+}
+.Adornosd{
+    align-content: center;
+    left: 25%;
+}
+th.Precioth{
+    font-size: 25px;
+    border-left: 1px solid black;
+}

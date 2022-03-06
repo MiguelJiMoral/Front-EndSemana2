@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0;
+}
+.menu{
+    position: fixed;
+    width: 15%;
+    height: 100%;
+    background-color: #262423;
+}
+.menu li{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding-bottom: 25%;
+}
+.menu ul{
+    margin-top: 65%;
+}
+.organizar{
+    margin-left: 20%;
+    text-align: center;
+}
+.organizar h1{
+    margin-bottom: 7px;
+}
+.Pedidos{
+    margin-top: 5%;
+    margin-left: 25%;
+    width: 60%;
+    border: 1px solid black;
+}
+th{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+td{
+    border-right: 1px solid black;
+}
